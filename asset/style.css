@@ -1,0 +1,249 @@
+html {
+  font-size: 62.5%;
+  font-family: "Courier Prime", monospace;
+}
+body {
+  box-sizing: border-box;
+  background-color: rgb(28, 28, 48);
+  color: aliceblue;
+}
+.logo {
+  width: 40px;
+  height: 33px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.a-wea {
+  text-decoration: none;
+  color: black;
+}
+.image {
+  border-radius: 7px;
+  position: relative;
+  width: 93%;
+  height: 30%;
+  margin: 10px 0px;
+  opacity: 0.6;
+}
+.row1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 30px 30px;
+
+  top: 0;
+  left: 0;
+}
+.content {
+}
+.blu {
+  height: 90vh;
+  filter: blur(1px);
+  width: 70px;
+  background-color: rgb(121, 116, 148);
+
+  /* background-color: rgb(66, 62, 86); */
+  border-radius: 7px;
+  position: relative;
+}
+.t2 {
+  transform: translateY(-100px);
+}
+.tod {
+  justify-items: center;
+}
+.weathe {
+  display: flex;
+}
+.weathe p {
+  transform: translateY(-100px);
+}
+#weather-icon {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  transform: translateY(-150px);
+}
+.fa-solid {
+  margin-right: 10px;
+}
+
+.condi {
+  line-height: 2.5;
+}
+.des-wea {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+.ul {
+  margin-top: 50px;
+}
+.fa-regular {
+  margin-left: 20px;
+}
+.ul-nav {
+  margin-bottom: 15px;
+}
+.con1 {
+  padding: 5px;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  color: black;
+  /* font-size: 1.8rem; */
+}
+input[type="text"] {
+  width: 90%;
+  font-family: "Courier Prime", monospace;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+.row1 {
+  padding-left: 50px;
+  padding-right: 70px;
+}
+#city {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#temperate-col2 {
+  font-size: 3rem;
+  padding-top: 30px;
+}
+.row2,
+.row3 {
+  background-color: rgb(97, 88, 125);
+  width: 93%;
+  border-radius: 8px;
+  opacity: 0.85;
+}
+.con {
+  padding: 25px;
+}
+.today,
+.air,
+.day-7 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.day-weather {
+  /* display: flex; */
+  /* margin-right: 70px; */
+  display: grid;
+  font-size: 1.2rem;
+  grid-template-columns: 100px 110px 105px 105px 105px 105px;
+}
+.des {
+  text-align: center;
+  padding: 10px;
+}
+.des + .des {
+  border-left: 1.5px solid black;
+  color: aliceblue;
+  /* display: flex; */
+}
+
+.container {
+  display: flex;
+  padding: 30px 30px;
+}
+nav {
+  width: 10%;
+}
+.logo {
+  height: 35spx;
+  width: 30px;
+}
+
+.content-left {
+  width: 60%;
+}
+.content-right {
+  width: calc(100% - 70%);
+}
+.fa-map {
+  font-size: 5rem;
+}
+.li2 {
+  font-size: 1.5rem;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+}
+.row3 {
+  margin-top: 15px;
+}
+.content-right {
+  height: 90vh;
+  border-radius: 8px;
+
+  background-color: rgb(114, 110, 139);
+}
+.fell {
+  font-size: 1.3rem;
+  transform: translateY(30px);
+}
+.col3 {
+  background-color: rgb(121, 116, 148);
+
+  padding: 20px;
+  border-radius: 8px;
+}
+.p {
+  padding: 0 20px;
+}
+.icon {
+  padding: 0 20px;
+}
+.day {
+  display: flex;
+  transform: translateY(150px);
+}
+
+.snow {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  animation: animate 2s ease-in-out infinite;
+  filter: blur(5px);
+}
+.snow-blur {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  animation: myfirst 7s ease-in-out infinite;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translate(50px, 100vh);
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translate(100px, 100vh);
+  }
+}
+/* .container {
+  background-image: url(./sQZAbD.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+} */
